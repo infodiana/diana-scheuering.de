@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box !important;
+}
+
+.portfolio .row {
+    -moz-column-width: 22em;
+    -webkit-column-width: 22em;
+    -moz-column-gap: 4px;
+    -webkit-column-gap: 4px;
+}
+
+.portfolio .row>.col-md-3 {
+    display: inline-block;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    float: none;
+}
+
+.portfolio .img-responsive {
+    border: 0px solid #999;
+}
+
+
+
+.portfolio2 .row {
+    -moz-column-width: 20em;
+    -webkit-column-width: 20em;
+    -moz-column-gap: 4px;
+    -webkit-column-gap: 4px;
+}
+
+.portfolio2 .row>.col-md-3 {
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+    float: none;
+}
