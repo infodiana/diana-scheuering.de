@@ -429,10 +429,18 @@ footer ul.quicklinks {
         padding: 0 100px 20px 20px
     }
 }
+.datenschutz-li{
+  text-align: center;
+  margin: 20px;
 
+  font-weight: bold;
 
+}
 
+.datenschutz-h4{
 
+    margin-bottom: 22px;
+}
 
 section#contact {
     background-color: #222;
@@ -452,4 +460,18 @@ footer span.copyright {
 }
 
 
+@media (min-width:768px) {
+        .datenschutz-h4 {
+
+            margin-bottom: 22px;
+        }
+        .datenschutz{
+            padding: 5px;
+            text-align: justify;
+        }
+}
+
+.datenschutz{
+    
+    text-align: justify;
 }
