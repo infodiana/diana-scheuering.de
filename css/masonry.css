@@ -1,7 +1,8 @@
 *,
 *:before,
 *:after {
-    box-sizing: border-box !important;
+    -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
 }
 
 .portfolio .row {
@@ -13,9 +14,9 @@
 
 .portfolio .row>.col-md-3 {
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     margin: 0;
-    width: 100%;
+    width: 90%;
     float: none;
 }
 

@@ -1,0 +1,35 @@
+.close-button {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 50px;
+  display: inline-block;
+}
+.close-button:before,
+.close-button:after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -25px;
+  display: block;
+  height: 10px;
+  width: 50px;
+  background-color: gray;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.close-button:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.close-button:hover:before,
+.close-button:hover:after {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
